@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    border-bottom: 2px solid crimson;
+}
+
+div {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+}
+div label {
+    flex-basis: 75%;
+    text-align: right;
+    font-size: 24px;
+}
+div input {
+    flex-basis: 25%;
+    font-size: 24px;
+    font-family: monospace;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid crimson;
+}
+
+button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+span {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
